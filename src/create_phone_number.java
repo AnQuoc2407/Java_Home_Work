@@ -15,8 +15,6 @@ public class create_phone_number {
         }
         String output = str;
         String number = output.replaceFirst("(\\d{3})(\\d{3})(\\d+)", "($1) $2-$3");
-
-
        System.out.println("Your phone number is: "+"\""+ number+"\"");
     }
 }
